@@ -3,7 +3,7 @@ import os
 import json
 from datetime import datetime
 
-TOKEN = os.getenv("ANALYTICS_BOT_TOKEN")  # এটা আলাদা বটের টোকেন হবে
+TOKEN = ("7675019572:AAG4QU1CQ5anaDh4cKXl7F_7O6CfIsSi-I4")  # এটা আলাদা বটের টোকেন হবে
 bot = telebot.TeleBot(TOKEN, parse_mode="MarkdownV2")
 
 STATS_FILE = "stats.json"
